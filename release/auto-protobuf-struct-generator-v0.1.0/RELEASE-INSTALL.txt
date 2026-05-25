@@ -1,0 +1,11 @@
+auto-protobuf-struct-generator release package
+
+Installation:
+1. Extract this package.
+2. Copy the entire folder "auto-protobuf-struct-generator-v0.1.0" into IDA's plugins directory.
+3. Ensure the IDA Python environment has the "protobuf" package installed.
+4. Restart IDA and run:
+   Edit -> Plugins -> Auto Protobuf Struct Generator
+
+Optional:
+- If you want standard *_pb2.py output, make sure "protoc" is available in PATH.

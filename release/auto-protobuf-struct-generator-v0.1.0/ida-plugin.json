@@ -1,0 +1,13 @@
+{
+  "$schema": "https://hcli.docs.hex-rays.com/schemas/ida-plugin.json",
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "Auto Protobuf Struct Generator",
+    "entryPoint": "ida_auto_protobuf_plugin.py",
+    "version": "0.1.0",
+    "idaVersions": ["9.2"],
+    "description": "Recover embedded Protobuf descriptors from ELF/PE files and export .proto and _pb.py outputs.",
+    "pythonDependencies": ["protobuf"],
+    "authors": []
+  }
+}
