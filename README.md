@@ -1,0 +1,1 @@
+# auto-protobuf-struct-generator
