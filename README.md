@@ -1,5 +1,7 @@
 # auto-protobuf-struct-generator
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 An IDAPython plugin for IDA Pro 9.2 that scans ELF and PE binaries for Protobuf-related descriptor data and reconstructs `.proto` files plus Python protobuf modules.
 
 ## Features
